@@ -1,0 +1,54 @@
+* {
+  cursor: */y aqui tipo de cursor*/
+}
+input[type="text"] {
+  background-color: red;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+label[for="nombre"]{
+  color: #ff0010;
+}
+
+input[type="email"] {
+  background-color: green;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+label[for="email"]{
+  color: blue;
+  background-color: purple;
+}
+
+#poblacion {
+  color: yellow;
+  background-color: green;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  height: 60px;
+  width: 60px;
+  background-color: pink;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+a:hover{
+  color:green;
+  font-size:50px;
+  cursor:not-allowed;
+}
+
+input:required{
+  border:5px dashed red;
+}
+:checked{
+margin-left:25px;/* esto es para qu lo seleccinado , en la pg. se desplace a um lado ; por ej. hom., mujer.*/
+
+}

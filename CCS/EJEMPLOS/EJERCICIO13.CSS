@@ -1,0 +1,17 @@
+.ContainerVertical{
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+.item{
+  width: 136px;
+  background-color: blue;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

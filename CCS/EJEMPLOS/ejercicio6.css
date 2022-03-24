@@ -1,0 +1,28 @@
+a[href="https://www.hostinger.es/tutoriales/mejores-fuentes-html"] {
+color: red;
+}
+
+a[href="http://sistema-artext.com/"] {
+color: blue;
+}
+
+a[href="https://quizizz.com/"] {
+color: green;
+}
+
+a[href="https://www.socrative.com/"] {
+color:purple ;
+}
+
+a[href="https://new.edmodo.com/"] {
+color: orange;
+}
+a:hover{
+  color: red;
+  font-size: 50px;
+}
+
+a:visited{
+  background-color: green;
+  color:yellow;
+}

@@ -1,0 +1,18 @@
+h1 {
+ border: 5px dashed purple;
+ padding: 50px 120px /* esto es solo para mover las letras dentro de las cajas*/
+} /*margin es para mover toda la caja a ala derecha */
+
+p {
+ border-style: dashed;
+ border-width: 9px;
+ border-color: red;
+ border-left-width : 2px;
+ border-left-color: blue;
+ border-left-style: dotted;
+ border-bottom-width:10px;
+ border-bottom-color:blue;
+ border-bottom-style:solid;
+ border-top-left-radius:10px;
+ background-color:yellow;
+}

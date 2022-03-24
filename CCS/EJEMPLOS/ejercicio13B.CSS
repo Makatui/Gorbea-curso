@@ -1,0 +1,96 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.containerVertical{
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  width: 136;
+  background-color: blue;
+
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.containerHorizontal{
+  margin-left: 40px;
+  background-color: lightblue;
+  width: 750px;
+  height: 65px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.itemH{
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.containerVertical{
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  width: 150;
+  background-color: blue;
+
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.containerHorizontal{
+  margin-left: 40px;
+  background-color: lightblue;
+  width: 750px;
+  height: 65px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.itemH{
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border: 1px solid white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

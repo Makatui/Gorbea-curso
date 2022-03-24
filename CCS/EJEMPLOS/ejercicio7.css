@@ -1,0 +1,9 @@
+input[type="checkbox"]:checked{
+ accent-color:orange;
+}
+:focus{
+  background-color: purple
+}
+input:disabled{
+  background-color:#000000;
+}
