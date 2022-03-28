@@ -1,0 +1,34 @@
+div{
+  display: flex;
+height:100px;
+flex-direction: column;
+
+}
+h1{font-size: 24px;
+    font-weight: bold;
+    background-color:
+
+}
+
+div{display:flex;
+
+  }
+  .izquierda{
+  flex: 2;
+  padding: 24px;
+  background: #2bd8e9;
+  color:green;
+
+}
+.central{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.derecho{
+  /* flex: 1 1 100%; */
+  flex-grow: 1;
+  /* flex-shrink: 1;
+  flex-basis: 100%; */
+  border: 1px solid lightgreen;
+  padding: 24px;

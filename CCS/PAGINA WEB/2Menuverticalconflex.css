@@ -1,0 +1,24 @@
+
+ul{
+  display:flex;
+  flex-direction: column;
+  padding:0;
+  width: 6em;
+}
+
+li{
+  background: lightblue;
+  margin-bottom: 2px;
+  height: 1em;
+}
+a{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+
+}
+a:hover{
+  background-color: darkblue;
+  color: white;
+}
