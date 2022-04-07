@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Condicional IF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+      <script>
+        var hora = new Date().getHours(); //este codigo da la hora actual
+
+        var saludo;
+        if(hora<10){ //< menor que
+          saludo="Buenos días";
+        }
+
+
+        else if(hora<20){ // >mayor que
+          saludo="Buenas tardes";
+        }
+
+
+        else{
+          saludo="Buenas noches";
+        }
+
+
+        document.write("Son las "+hora+" horas: "+saludo);
+        // document.write(saludo);
+      </script>
+    </body>
+</html>

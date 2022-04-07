@@ -1,0 +1,19 @@
+/* Estilos para móviles */
+@media only screen and (max-width: 400px) {
+h1{
+color: red;
+ }
+}
+/* Estilos para tablet */
+@media only screen and (min-width: 401px) and
+(max-width: 960px) {
+ h1{
+ color: green;
+ }
+}
+/* Estilos para desktop */
+@media only screen and (min-width: 961px) {
+h1 {
+ color: blue;
+ }
+}

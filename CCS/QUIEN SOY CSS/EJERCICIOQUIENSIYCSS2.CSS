@@ -1,0 +1,112 @@
+*{
+  font-family: "Arial";
+  color: #444444;
+}
+
+p{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+h2{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+body{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  height:65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategrey;
+}
+
+main{
+  margin: 10px 60px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.columnIzq{
+  width: 30%;
+  margin-right: 60px;
+}
+
+.columnDer{
+  width: 60%;
+}
+table :first-child{
+  height: 30px;
+  width: 40%;
+  padding-right: 20px;
+}
+
+tr:nth-child(even){
+  background-color: lightyellow;
+}
+
+tr:nth-child(odd){
+  background-color: lightgreen;
+}
+
+tr{
+  height: 50px;
+}
+
+th{
+  text-align: left;
+  color: red;
+}
+
+tr :nth-child(2n){
+  width: 20%;
+}
+
+td{
+  font-weight: normal;
+}
+
+#retrato{
+    width: 200px;
+    border-radius: 100px;
+    margin: 0 20%;
+}
+
+footer{
+  width: 100%;
+  height 52px;
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position:fixed;
+  bottom: 0;
+}
+
+footer img{
+  margin-right: 10px;
+}
+
+footer a{
+  margin-left: 5px;
+  color: #fff;
+}
+
+#separador{
+  margin-bottom: 50px;
+}

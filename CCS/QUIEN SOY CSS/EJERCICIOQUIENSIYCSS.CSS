@@ -1,0 +1,24 @@
+* {
+  font-family: sans-serif;
+  color: blue;
+  background-image: url(https://i.pinimg.com/236x/42/89/da/4289dabbe78f3401cfb906f076b5c022.jpg);
+  /* background-repeat: no-repeat; para no repetir imagen de fondo */
+}
+
+h1 {
+  text-shadow: darkblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-shadow:  darkblue;
+  text-align: center;
+    font-size: 30px;
+}
+p{
+  font-weight: lighter;
+  /* font-weight: bold; */
+  text-shadow:  darkblue;
+  font-size: 20px;
+}
